@@ -1,6 +1,6 @@
 # Content-Management-System
 Website that you have to build that two aera, Public Area and Admin area.
-![picture](CMS.png)
+![picture](CMS.PNG)
 
 Public area (fig-1) is simple having similar page structure. An area for navigation like a menu
 and content and aera for the content using pick an item which will show pages contents. Pick a
