@@ -18,6 +18,8 @@ admins for admin CRUD which will able to do the add admin using username and pas
 delete and edit them. And in final menu option, there will be logout which will be able to logout
 from the admin section and take you back from login section again.
 
-ADMIN - 
+#ADMIN - 
+
 USERNAME - aayushi
+
 PASSWORD - $2y$10$
