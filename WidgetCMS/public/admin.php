@@ -1,0 +1,30 @@
+<?php 
+require_once'../includes/session.php';
+require_once'../includes/functions.php';  ?>
+<?php confirm_logged_in(); ?>
+
+<?php $layout_context = "admin"; ?>
+<head>
+		<title>Widget Corp <?php if ($layout_context == "admin") { echo "Admin"; } ?></title>
+<link href="css/login.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+      <h1>Widget Corp <?php if ($layout_context == "admin") { echo "Admin"; } ?></h1>
+</div>
+<div id="main">
+  <div id="navigation">
+    &nbsp;
+  </div>
+  <div id="page">
+    <h2>Admin Menu</h2>
+    <p>Welcome to the admin area, <?php echo htmlentities($_SESSION["username"]); ?>.</p>
+    <ul>
+      <li><a href="manage_content.php">Manage Website Content</a></li> 
+      <li><a href="manage_admins.php">Manage Admin Users</a></li> 
+      <li><a href="logout.php">Logout</a></li>
+    </ul>
+  </div>
+</div>
+
+
